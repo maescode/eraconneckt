@@ -1,0 +1,545 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    z-index: 10;
+}
+
+.nav-header {
+    background-image: url('../img/header-backround.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-y: -10px;
+    background-size: 75%;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.eraconnect {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.055em;
+    text-align: left;
+}
+
+.landing-button a {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    width: 175px;
+    height: 50px;
+    border-radius: 2px;
+    color: white;
+    margin-right: 30px;
+}
+
+.landing-button a:hover {
+    color: white;
+}
+
+.landing-text {
+    padding-right: 10px;
+    color: white;
+}
+
+.landing-text h1 {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.landing-text h2 {
+    font-family: Lato;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.landing-text p {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.landing-image img {
+    display: block;
+    width: 100%
+}
+
+.resume-btn {
+    background-color: #EB8145;
+}
+
+.subscribe-btn {
+    border: solid white 1px
+}
+
+section {
+    padding: 50px 0px;
+}
+
+.section-heading {
+    position: relative;
+}
+
+.ruler-1 {
+    position: absolute;
+    top: -8px;
+    width: 50px;
+    height: 4px;
+    background: #EB8145;
+    border-radius: 100px;
+}
+
+.ruler-2 {
+    position: absolute;
+    top: 10px;
+    width: 50px;
+    height: 4px;
+    background: #EB8145;
+    border-radius: 100px;
+}
+
+.ruler-3 {
+    position: absolute;
+    bottom: 0px;
+    width: 30px;
+    height: 4px;
+    background: #EB8145;
+    border-radius: 100px;
+}
+
+.ruler-4 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40px;
+    height: 4px;
+    background: #EB8145;
+    border-radius: 100px;
+}
+
+.ruler-5 {
+    position: absolute;
+    top: -10px;
+    width: 50px;
+    height: 4px;
+    background: #EB8145;
+    border-radius: 100px;
+}
+
+.see-more-info {
+    color: #EB8145;
+}
+
+.modal-header {
+    position: relative;
+}
+
+.section-heading h2 {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section-content p {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6E6E70;
+}
+
+.heading-text {
+    position: relative;
+}
+
+.heading-text h4 {
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card {
+    background: transparent;
+}
+
+.card-p {
+    color: #4F4F4F;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.card-img img {
+    width: 80px;
+    height: 80px;
+}
+
+.upload-resume {
+    margin-top: 100px;
+    text-align: right !important;
+}
+
+.resume-form-bg {
+    min-height: inherit;
+    background: url('../img/form-bg.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.upload-resume h3 {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.submit-your-resume {
+    min-height: 600px;
+    background: url('../img/connect-logo.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.upload-resume-heading {
+    position: relative
+}
+
+.upload-resume p {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #6E6E70;
+    ;
+}
+
+.who-we-are {
+    background: url('../img/who-we-are-bg.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-position-y: -250px;
+    background-size: 65%
+}
+
+.form-group {
+    margin-top: 25px;
+}
+
+.form-group input {
+    height: 50px;
+    border-radius: 0px;
+    ;
+}
+
+.form-group input :focus {
+    outline: none;
+    outline-color: lightgray;
+    border-color: lightgray !important;
+}
+
+.form-group input[type='submit'] {
+    background-color: #89B369;
+    color: white;
+    border: 0px;
+    ;
+}
+
+.form-group label {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #89B369;
+    padding-left: 4px;
+}
+
+.image-input img {
+    width: 100%;
+}
+
+.image-input img:hover {
+    cursor: pointer;
+}
+
+.subscribe-heading h2 {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+.subscribe-heading {
+    position: relative;
+}
+
+.subscribe-form input {
+    width: 300px
+}
+
+.subscribe-form button {
+    height: 50px;
+    background-color: #EB8145;
+    border-radius: 0px;
+    color: white;
+}
+
+.subscribe-form button:hover {
+    color: white;
+}
+
+.subscribe-email {
+    background-image: url('../img/subscribe-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer {
+    background-color: #4F4F4F;
+    color: white !important;
+}
+
+footer h4 {
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #89B369;
+}
+
+.footer-logo img {
+    margin-top: -25px;
+    width: 150px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 20px;
+}
+
+footer ul li a:hover {
+    color: white;
+}
+
+footer ul li a {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.social {
+    margin: 20px 0px;
+    display: flex;
+}
+
+.social img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+@media(max-width:500px) {
+    .landing-text h1 {
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .landing-text h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-text p {
+        font-family: Lato;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .landing-button a {
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        width: 150px;
+        height: 40px;
+        border-radius: 2px;
+        color: white;
+        margin-right: 10px;
+    }
+    .section-heading h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-button {
+        padding-bottom: 100px !important;
+    }
+    .card {
+        margin-top: 25px;
+    }
+    .who-we-are {
+        background: url('../img/who-we-are-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-repeat: repeat-y;
+        background-position-y: 250px;
+        background-size: 100%
+    }
+    .upload-resume h3 {
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .upload-resume {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .upload-resume p {
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6E6E70;
+        ;
+    }
+    .ruler-4 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 40px;
+        height: 4px;
+        background: #EB8145;
+        border-radius: 100px;
+    }
+    .subscribe-heading h2 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4F4F4F;
+    }
+    .subscribe-heading {
+        margin-top: 0px !important;
+    }
+    .subscribe-form input {
+        width: 200px;
+        height: 40px
+    }
+    .subscribe-form button {
+        height: 40px;
+        background-color: #EB8145;
+        border-radius: 0px;
+        color: white;
+    }
+    .our-circle-image {
+        margin-top: -100px
+    }
+    .footer-logo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+    .nav-header {
+        background-image: url('../img/header-backround.png');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 270%;
+    }
+    .resume-form-bg {
+        min-height: inherit;
+        background: url('../img/form-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+}
