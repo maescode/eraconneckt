@@ -54,7 +54,7 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="landing-text mt-5">
-                            <h1 class="welcome">WELCOME TO <span class="eraconnect">eráconneckt</span></h1>
+                            <h1 class="welcome text-uppercase">WELCOME TO <span class="eraconnect">éráconneckt</span></h1>
                             <h2>
                                 Get Conneckted. <br>Simple as that!
                             </h2>
@@ -63,7 +63,7 @@
                             </p>
                         </div>
                         <div class="landing-button mt-4 pb-3">
-                            <a href="#resume" class="btn resume-btn">Submit Résumé</a> <a href="#subscribe" class="btn subscribe-btn shadow-0">Subscribe</a>
+                            <a href="#resume" class="btn resume-btn text-capitalize">Submit Résumé</a> <a href="#subscribe" class="btn subscribe-btn shadow-0">Subscribe</a>
                         </div>
                     </div>
                 </div>
@@ -221,17 +221,17 @@
                                     <div class="ruler-4"></div>
                                     <h3>Submit Your Résumé </h3>
                                 </div>
-                                <p>Upload your resume to be connected to job opportunites that suits your portfolio when such is available.</p>
+                                <p>Upload your resume to be connected to job opportunites <br> that suits your portfolio when such is available.</p>
                             </div>
                         </div>
                         <div class="col-md-6 order-md-1 resume-form">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <form class="px-4 py-3 shadow bg-white">
+                                    <form class="px-4 py-3 shadow bg-white needs-validation" novalidate>
                                         <div class="form-group">
                                             <label for="">Email Address</label>
-                                            <input type="text" name="" id="" class="form-control shadow-sm" placeholder="example@gmail.com" aria-describedby="helpId">
-                                            <small id="helpId" class="text-danger">*Please type your email address in the format yourusername@example.com</small>
+                                            <input type="email" name="" id="" class="form-control shadow-sm" placeholder="example@gmail.com" aria-describedby="helpId" required>
+                                            <div class="invalid-feedback">*Please type your email address in the format username@example.com</div>
                                         </div>
                                         <div class="form-group">
                                             <label for="">Protfolio Link <span class="text-muted">(optional) </span></label>
@@ -242,6 +242,8 @@
                                             <div class="image-input">
                                                 <img src="./img/attach-document.png" alt="" srcset="">
                                             </div>
+                                            <div class="invalid-feedback"></div>
+
                                         </div>
                                         <div class="form-group mb-4">
                                             <input type="submit" name="" id="" class="form-control" placeholder="" aria-describedby="helpId" value="upload">
@@ -262,7 +264,7 @@
                 <div class="row">
                     <div class="col-md-6 order-md-2">
                         <div class="our-circle-image d-flex justify-content-center align-content-center">
-                            <img src="./img/our-circle.png" alt="" sizes="" srcset="" class="my-5 py-3 w-100">
+                            <img src="./img/our-circle.png" alt="" sizes="" srcset="" class="my-5  w-100">
                         </div>
                     </div>
                     <div class="col-md-6 order-md-1">
@@ -275,7 +277,7 @@
                         <div class="subscribe-form">
                             <form>
                                 <div class="form-group">
-                                    <input type="text" name="" id="" class="form-control d-inline" placeholder="" aria-describedby="helpId"><button class="btn mx-2 shadow-0">Subscribe</button>
+                                    <input type="text" name="" id="" class="form-control d-inline" placeholder="Enter mail" aria-describedby="helpId"><button class="btn mx-2 shadow-0">Subscribe</button>
                                 </div>
                             </form>
                         </div>
@@ -346,16 +348,43 @@
 
     <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
 
     <!-- MDB -->
+    <script type="text/javascript" src="./js/file-input.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
     <!-- Custom scripts -->
     <script type="text/javascript" src="./js/script.js"></script>
 </body>

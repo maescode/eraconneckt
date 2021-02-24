@@ -543,3 +543,12 @@ footer ul li a {
         background-position: bottom;
     }
 }
+
+@media(min-width:1200px) {
+    header {
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+}
