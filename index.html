@@ -221,13 +221,13 @@
                                     <div class="ruler-4"></div>
                                     <h3>Submit Your Résumé </h3>
                                 </div>
-                                <p>Upload your resume to be connected to job opportunites <br> that suits your portfolio when such is available.</p>
+                                <p class="upload-text">Upload your resume to be connected to job opportunites that suits your portfolio when such is available.</p>
                             </div>
                         </div>
                         <div class="col-md-6 order-md-1 resume-form">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <form class="px-4 py-3 shadow bg-white needs-validation" novalidate>
+                                    <form class="px-4 py-3 shadow bg-white needs-validation" id="r-form" novalidate>
                                         <div class="form-group">
                                             <label for="">Email Address</label>
                                             <input type="email" name="" id="" class="form-control shadow-sm" placeholder="example@gmail.com" aria-describedby="helpId" required>
@@ -335,7 +335,12 @@
             <div class="row">
                 <hr class="bg-white">
                 <div class="col-12">
-                    <p class="text-white text-center pt-4">Copyright 2020 All right reserved | ERA Conneckt</p>
+                    <p class="text-white text-center pt-4">Copyright
+                        <script>
+                            let date = new Date();
+                            document.write(date.getFullYear())
+                        </script> &copy; All right reserved | ERA Conneckt
+                    </p>
                 </div>
             </div>
         </div>

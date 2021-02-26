@@ -415,7 +415,297 @@ input[type='text'] {
     opacity: 1;
 }
 
-@media(max-width:500px) {
+@media(max-width:285px) {
+    .landing-text h1 {
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 8px;
+    }
+    .landing-text h2 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-text p {
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .landing-button a {
+        font-family: Lato;
+        font-size: 10px;
+        font-style: normal;
+        width: 115px;
+        height: 40px;
+        border-radius: 2px;
+        color: white;
+        margin-right: 10px;
+    }
+    .section-heading h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-button {
+        padding-bottom: 100px !important;
+    }
+    .card {
+        margin-top: 25px;
+    }
+    .who-we-are {
+        padding-top: 50px;
+        background: url('../img/who-we-are-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-repeat: repeat-y;
+        background-position-y: 250px;
+        background-size: 100%
+    }
+    .who-we-are p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .upload-resume h3 {
+        font-family: Lato;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .upload-resume {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .upload-resume p {
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6E6E70;
+        ;
+    }
+    .ruler-4 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 40px;
+        height: 4px;
+        background: #EB8145;
+        border-radius: 100px;
+    }
+    .subscribe-heading h2 {
+        font-family: Lato;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4F4F4F;
+    }
+    .subscribe-heading {
+        margin-top: 0px !important;
+    }
+    .subscribe-form input {
+        width: 120px;
+        height: 35px
+    }
+    .subscribe-form button {
+        height: 35px;
+        background-color: #EB8145;
+        border-radius: 0px;
+        color: white;
+    }
+    .our-circle-image {
+        margin-top: -100px
+    }
+    .footer-logo img {
+        margin-top: 5px;
+        width: 120px;
+    }
+    .nav-header {
+        background-image: url('../img/header-backround.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 450%;
+    }
+    .resume-form-bg {
+        min-height: inherit;
+        background: url('../img/form-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+}
+
+@media(min-width:290px) {
+    .landing-text h1 {
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 8px;
+    }
+    .landing-text h2 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-text p {
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .landing-button a {
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        width: 125px;
+        height: 40px;
+        border-radius: 2px;
+        color: white;
+        margin-right: 10px;
+    }
+    .section-heading h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-button {
+        padding-bottom: 100px !important;
+    }
+    .card {
+        margin-top: 25px;
+    }
+    .who-we-are {
+        padding-top: 50px;
+        background: url('../img/who-we-are-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-repeat: repeat-y;
+        background-position-y: 250px;
+        background-size: 100%
+    }
+    .who-we-are p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .upload-resume h3 {
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .upload-resume {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .upload-resume p {
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6E6E70;
+        ;
+    }
+    .ruler-4 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 40px;
+        height: 4px;
+        background: #EB8145;
+        border-radius: 100px;
+    }
+    .subscribe-heading h2 {
+        font-family: Lato;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4F4F4F;
+    }
+    .subscribe-heading {
+        margin-top: 0px !important;
+    }
+    .subscribe-form input {
+        width: 160px;
+        height: 35px
+    }
+    .subscribe-form button {
+        height: 35px;
+        background-color: #EB8145;
+        border-radius: 0px;
+        color: white;
+    }
+    .our-circle-image {
+        margin-top: -100px
+    }
+    .footer-logo img {
+        margin-top: 5px;
+        width: 120px;
+    }
+    .nav-header {
+        background-image: url('../img/header-backround.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 250%;
+    }
+    .resume-form-bg {
+        min-height: inherit;
+        background: url('../img/form-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+}
+
+@media(min-width:340px) {
     .landing-text h1 {
         font-family: Lato;
         font-size: 22px;
@@ -544,19 +834,763 @@ input[type='text'] {
     .nav-header {
         background-image: url('../img/header-backround.png');
         background-repeat: no-repeat;
-        background-position: left center;
+        background-position: left top;
         background-size: 270%;
     }
     .resume-form-bg {
         min-height: inherit;
         background: url('../img/form-bg.png');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 80%;
+        background-position: -10px;
+    }
+}
+
+@media(min-width:750px) {
+    .landing-text h1 {
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .landing-text h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-text p {
+        font-family: Lato;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .landing-button a {
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        width: 150px;
+        height: 40px;
+        border-radius: 2px;
+        color: white;
+        margin-right: 10px;
+    }
+    .section-heading h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-button {
+        padding-bottom: 100px !important;
+    }
+    .card {
+        margin-top: 25px;
+    }
+    .who-we-are {
+        padding-top: 50px;
+        background: url('../img/who-we-are-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-repeat: repeat-y;
+        background-position-y: 250px;
+        background-size: 100%
+    }
+    .upload-resume h3 {
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .upload-resume {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .upload-resume p {
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6E6E70;
+        ;
+    }
+    .ruler-4 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 40px;
+        height: 4px;
+        background: #EB8145;
+        border-radius: 100px;
+    }
+    .subscribe-heading h2 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4F4F4F;
+    }
+    .subscribe-heading {
+        margin-top: 0px !important;
+    }
+    .subscribe-form input {
+        width: 200px;
+        height: 40px
+    }
+    .subscribe-form button {
+        height: 40px;
+        background-color: #EB8145;
+        border-radius: 0px;
+        color: white;
+    }
+    .our-circle-image {
+        margin-top: -100px
+    }
+    .footer-logo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+    .nav-header {
+        background-image: url('../img/header-backround.png');
+        background-repeat: no-repeat;
+        background-position: left up;
+        background-size: 105%;
+    }
+    .resume-form-bg {
+        min-height: inherit;
+        background: url('../img/form-bg.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: -10px;
+    }
+    header {
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+}
+
+@media(min-width:1000px) {
+    .landing-text h1 {
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .landing-text h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-text p {
+        font-family: Lato;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .landing-button a {
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        width: 150px;
+        height: 40px;
+        border-radius: 2px;
+        color: white;
+        margin-right: 10px;
+    }
+    .section-heading h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-button {
+        padding-bottom: 100px !important;
+    }
+    .card {
+        margin-top: 25px;
+    }
+    .who-we-are {
+        padding-top: 50px;
+        background: url('../img/who-we-are-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-repeat: repeat-y;
+        background-position-y: 250px;
+        background-size: 100%
+    }
+    .upload-resume h3 {
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .upload-resume {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .upload-resume p {
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6E6E70;
+        ;
+    }
+    .ruler-4 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 40px;
+        height: 4px;
+        background: #EB8145;
+        border-radius: 100px;
+    }
+    .subscribe-heading h2 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4F4F4F;
+    }
+    .subscribe-heading {
+        margin-top: 0px !important;
+    }
+    .subscribe-form input {
+        width: 200px;
+        height: 40px
+    }
+    .subscribe-form button {
+        height: 40px;
+        background-color: #EB8145;
+        border-radius: 0px;
+        color: white;
+    }
+    .our-circle-image {
+        margin-top: -100px
+    }
+    .footer-logo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+    .nav-header {
+        background-image: url('../img/header-backround.png');
+        background-repeat: no-repeat;
+        background-position: left up;
+        background-size: 105%;
+    }
+    .resume-form-bg {
+        min-height: inherit;
+        background: url('../img/form-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
         background-position: bottom;
+        background-size: 50%;
+        background-position: -10px;
+    }
+    header {
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+}
+
+@media(min-width:1200px) {
+    .landing-text h1 {
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .landing-text h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-text p {
+        font-family: Lato;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .landing-button a {
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        width: 200px;
+        height: 50px;
+        border-radius: 2px;
+        color: white;
+        margin-right: 10px;
+    }
+    .section-heading h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-button {
+        padding-bottom: 100px !important;
+    }
+    .card {
+        margin-top: 25px;
+    }
+    .who-we-are {
+        padding-top: 50px;
+        background: url('../img/who-we-are-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-repeat: repeat-y;
+        background-position-y: 250px;
+        background-size: 100%
+    }
+    .upload-resume h3 {
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: right;
+    }
+    .upload-resume {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .upload-resume p {
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #6E6E70;
+        max-width: 445px;
+        margin-left: auto;
+    }
+    .upload-resume-heading {
+        position: relative;
+    }
+    .ruler-4 {
+        position: absolute;
+        left: 53%;
+        top: 0px;
+        width: 40px;
+        height: 4px;
+        background: #EB8145;
+        border-radius: 100px;
+    }
+    .subscribe-heading h2 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4F4F4F;
+    }
+    .subscribe-heading {
+        margin-top: 0px !important;
+    }
+    .subscribe-form input {
+        width: 200px;
+        height: 40px
+    }
+    .subscribe-form button {
+        height: 40px;
+        background-color: #EB8145;
+        border-radius: 0px;
+        color: white;
+    }
+    .our-circle-image {
+        margin-top: -100px
+    }
+    .footer-logo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+    .nav-header {
+        background-image: url('../img/header-backround.png');
+        background-repeat: no-repeat;
+        background-position: left up;
+        background-size: 80%;
+    }
+    .resume-form-bg {
+        min-height: inherit;
+        background: url('../img/form-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-size: 50%;
+        background-position: -10px;
+    }
+    header {
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+}
+
+@media(min-width:1300px) {
+    .landing-text h1 {
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .landing-text h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-text p {
+        font-family: Lato;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .landing-button a {
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        width: 200px;
+        height: 50px;
+        border-radius: 2px;
+        color: white;
+        margin-right: 10px;
+    }
+    .section-heading h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-button {
+        padding-bottom: 100px !important;
+    }
+    .card {
+        margin-top: 25px;
+    }
+    .who-we-are {
+        padding-top: 50px;
+        background: url('../img/who-we-are-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-repeat: repeat-y;
+        background-position-y: 250px;
+        background-size: 100%
+    }
+    .upload-resume h3 {
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: right;
+    }
+    .upload-resume {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .upload-resume p {
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #6E6E70;
+        max-width: 445px;
+        margin-left: auto;
+    }
+    .upload-resume-heading {
+        position: relative;
+    }
+    .ruler-4 {
+        position: absolute;
+        left: 53%;
+        top: 0px;
+        width: 40px;
+        height: 4px;
+        background: #EB8145;
+        border-radius: 100px;
+    }
+    .subscribe-heading h2 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4F4F4F;
+    }
+    .subscribe-heading {
+        margin-top: 0px !important;
+    }
+    .subscribe-form input {
+        width: 200px;
+        height: 40px
+    }
+    .subscribe-form button {
+        height: 40px;
+        background-color: #EB8145;
+        border-radius: 0px;
+        color: white;
+    }
+    .our-circle-image {
+        margin-top: -100px
+    }
+    .footer-logo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+    .nav-header {
+        background-image: url('../img/header-backround.png');
+        background-repeat: no-repeat;
+        background-position: left up;
+        background-size: 65%;
+    }
+    .resume-form-bg {
+        min-height: inherit;
+        background: url('../img/form-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-size: 50%;
+        background-position: -10px;
+    }
+    header {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        position: relative;
     }
 }
 
 @media(min-width:1400px) {
+    .landing-text h1 {
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .landing-text h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-text p {
+        font-family: Lato;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .landing-button a {
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        width: 200px;
+        height: 50px;
+        border-radius: 2px;
+        color: white;
+        margin-right: 10px;
+    }
+    .section-heading h2 {
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .landing-button {
+        padding-bottom: 100px !important;
+    }
+    .card {
+        margin-top: 25px;
+    }
+    .who-we-are {
+        padding-top: 50px;
+        background: url('../img/who-we-are-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-repeat: repeat-y;
+        background-position-y: 250px;
+        background-size: 100%
+    }
+    .upload-resume h3 {
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: right;
+    }
+    .upload-resume {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .upload-resume p {
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #6E6E70;
+        max-width: 445px;
+        margin-left: auto;
+    }
+    .upload-resume-heading {
+        position: relative;
+    }
+    .ruler-4 {
+        position: absolute;
+        left: 60%;
+        top: 0px;
+        width: 40px;
+        height: 4px;
+        background: #EB8145;
+        border-radius: 100px;
+    }
+    .subscribe-heading h2 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4F4F4F;
+    }
+    .subscribe-heading {
+        margin-top: 0px !important;
+    }
+    .subscribe-form input {
+        width: 200px;
+        height: 40px
+    }
+    .subscribe-form button {
+        height: 40px;
+        background-color: #EB8145;
+        border-radius: 0px;
+        color: white;
+    }
+    .our-circle-image {
+        margin-top: -100px
+    }
+    .footer-logo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+    .nav-header {
+        background-image: url('../img/header-backround.png');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 70%;
+    }
+    .resume-form-bg {
+        min-height: inherit;
+        background: url('../img/form-bg.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: -10px;
+    }
     header {
         height: 65vh;
         display: flex;
