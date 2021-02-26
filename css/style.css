@@ -996,31 +996,30 @@ input[type='text'] {
 @media(min-width:1000px) {
     .landing-text h1 {
         font-family: Lato;
-        font-size: 22px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 30px;
+        line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
-        margin-top: 15px;
     }
     .landing-text h2 {
         font-family: Lato;
-        font-size: 35px;
+        font-size: 58px;
         font-style: normal;
         font-weight: 700;
-        line-height: 45px;
+        line-height: 72px;
         letter-spacing: 0em;
         text-align: left;
     }
     .landing-text p {
         font-family: Lato;
-        font-size: 17px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 30px;
         letter-spacing: 0em;
-        text-align: justify;
+        text-align: left;
     }
     .landing-button a {
         font-family: Lato;
@@ -1048,13 +1047,12 @@ input[type='text'] {
         margin-top: 25px;
     }
     .who-we-are {
-        padding-top: 50px;
+        padding-top: 80px !important;
         background: url('../img/who-we-are-bg.png');
         background-repeat: no-repeat;
         background-position: center right;
-        background-repeat: repeat-y;
-        background-position-y: 250px;
-        background-size: 100%
+        background-position-y: -250px;
+        background-size: 65%
     }
     .upload-resume h3 {
         font-family: Lato;
@@ -1145,31 +1143,30 @@ input[type='text'] {
 @media(min-width:1200px) {
     .landing-text h1 {
         font-family: Lato;
-        font-size: 22px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 30px;
+        line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
-        margin-top: 15px;
     }
     .landing-text h2 {
         font-family: Lato;
-        font-size: 35px;
+        font-size: 58px;
         font-style: normal;
         font-weight: 700;
-        line-height: 45px;
+        line-height: 72px;
         letter-spacing: 0em;
         text-align: left;
     }
     .landing-text p {
         font-family: Lato;
-        font-size: 17px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 30px;
         letter-spacing: 0em;
-        text-align: justify;
+        text-align: left;
     }
     .landing-button a {
         font-family: Lato;
@@ -1197,13 +1194,12 @@ input[type='text'] {
         margin-top: 25px;
     }
     .who-we-are {
-        padding-top: 50px;
+        padding-top: 80px !important;
         background: url('../img/who-we-are-bg.png');
         background-repeat: no-repeat;
         background-position: center right;
-        background-repeat: repeat-y;
-        background-position-y: 250px;
-        background-size: 100%
+        background-position-y: -250px;
+        background-size: 65%
     }
     .upload-resume h3 {
         font-family: Lato;
@@ -1276,7 +1272,7 @@ input[type='text'] {
         background-image: url('../img/header-backround.png');
         background-repeat: no-repeat;
         background-position: left up;
-        background-size: 80%;
+        background-size: 68%;
     }
     .resume-form-bg {
         min-height: inherit;
@@ -1298,31 +1294,30 @@ input[type='text'] {
 @media(min-width:1300px) {
     .landing-text h1 {
         font-family: Lato;
-        font-size: 22px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 30px;
+        line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
-        margin-top: 15px;
     }
     .landing-text h2 {
         font-family: Lato;
-        font-size: 35px;
+        font-size: 58px;
         font-style: normal;
         font-weight: 700;
-        line-height: 45px;
+        line-height: 72px;
         letter-spacing: 0em;
         text-align: left;
     }
     .landing-text p {
         font-family: Lato;
-        font-size: 17px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 30px;
         letter-spacing: 0em;
-        text-align: justify;
+        text-align: left;
     }
     .landing-button a {
         font-family: Lato;
@@ -1350,7 +1345,7 @@ input[type='text'] {
         margin-top: 25px;
     }
     .who-we-are {
-        padding-top: 50px;
+        padding-top: 80px;
         background: url('../img/who-we-are-bg.png');
         background-repeat: no-repeat;
         background-position: center right;
@@ -1451,35 +1446,34 @@ input[type='text'] {
 @media(min-width:1400px) {
     .landing-text h1 {
         font-family: Lato;
-        font-size: 22px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 30px;
+        line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
-        margin-top: 15px;
     }
     .landing-text h2 {
         font-family: Lato;
-        font-size: 35px;
+        font-size: 58px;
         font-style: normal;
         font-weight: 700;
-        line-height: 45px;
+        line-height: 72px;
         letter-spacing: 0em;
         text-align: left;
     }
     .landing-text p {
         font-family: Lato;
-        font-size: 17px;
+        font-size: 18px !important;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 30px;
         letter-spacing: 0em;
-        text-align: justify;
+        text-align: left;
     }
     .landing-button a {
         font-family: Lato;
-        font-size: 16px;
+        font-size: 17px;
         font-style: normal;
         width: 200px;
         height: 50px;
@@ -1488,11 +1482,12 @@ input[type='text'] {
         margin-right: 10px;
     }
     .section-heading h2 {
+        margin-top: 40px;
         font-family: Lato;
-        font-size: 35px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
-        line-height: 35px;
+        line-height: 60px;
         letter-spacing: 0em;
         text-align: left;
     }
@@ -1503,7 +1498,7 @@ input[type='text'] {
         margin-top: 25px;
     }
     .who-we-are {
-        padding-top: 50px;
+        padding-top: 80px;
         background: url('../img/who-we-are-bg.png');
         background-repeat: no-repeat;
         background-position: center right;
@@ -1597,4 +1592,8 @@ input[type='text'] {
         align-items: center;
         position: relative;
     }
+}
+
+main p {
+    font-size: 16px !important;
 }
