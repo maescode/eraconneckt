@@ -410,6 +410,16 @@ input[type='text'] {
     font-weight: 400;
 }
 
+.our-circle-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-circle-image img {
+    margin-top: 100px !important;
+}
+
 ::placeholder {
     color: rgb(170, 167, 167) !important;
     opacity: 1;
@@ -894,6 +904,17 @@ input[type='text'] {
         letter-spacing: 0em;
         text-align: left;
     }
+    .section-content p {
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6E6E70;
+        padding-right: 60px;
+    }
     .landing-button {
         padding-bottom: 100px !important;
     }
@@ -906,7 +927,6 @@ input[type='text'] {
         background-repeat: no-repeat;
         background-position: center right;
         background-repeat: repeat-y;
-        background-position-y: 250px;
         background-size: 100%
     }
     .upload-resume h3 {
@@ -965,18 +985,11 @@ input[type='text'] {
         border-radius: 0px;
         color: white;
     }
-    .our-circle-image {
-        margin-top: -100px
-    }
-    .footer-logo img {
-        margin-top: 5px;
-        width: 150px;
-    }
     .nav-header {
         background-image: url('../img/header-backround.png');
         background-repeat: no-repeat;
         background-position: left up;
-        background-size: 105%;
+        background-size: 95%;
     }
     .resume-form-bg {
         min-height: inherit;
@@ -986,10 +999,19 @@ input[type='text'] {
         background-position: -10px;
     }
     header {
-        height: 65vh;
+        height: 60vh;
         display: flex;
         align-items: center;
         position: relative;
+    }
+    .footer-logo img {
+        margin-top: -25px !important;
+        width: 150px;
+    }
+    .our-circle-image {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 }
 
@@ -1051,7 +1073,6 @@ input[type='text'] {
         background: url('../img/who-we-are-bg.png');
         background-repeat: no-repeat;
         background-position: center right;
-        background-position-y: -250px;
         background-size: 65%
     }
     .upload-resume h3 {
@@ -1110,13 +1131,6 @@ input[type='text'] {
         border-radius: 0px;
         color: white;
     }
-    .our-circle-image {
-        margin-top: -100px
-    }
-    .footer-logo img {
-        margin-top: 5px;
-        width: 150px;
-    }
     .nav-header {
         background-image: url('../img/header-backround.png');
         background-repeat: no-repeat;
@@ -1137,6 +1151,10 @@ input[type='text'] {
         display: flex;
         align-items: center;
         position: relative;
+    }
+    .footer-logo img {
+        margin-top: -25px !important;
+        width: 150px;
     }
 }
 
@@ -1261,13 +1279,6 @@ input[type='text'] {
         border-radius: 0px;
         color: white;
     }
-    .our-circle-image {
-        margin-top: -100px
-    }
-    .footer-logo img {
-        margin-top: 5px;
-        width: 150px;
-    }
     .nav-header {
         background-image: url('../img/header-backround.png');
         background-repeat: no-repeat;
@@ -1288,6 +1299,10 @@ input[type='text'] {
         display: flex;
         align-items: center;
         position: relative;
+    }
+    .footer-logo img {
+        margin-top: -25px !important;
+        width: 150px;
     }
 }
 
@@ -1403,7 +1418,7 @@ input[type='text'] {
         margin-top: 0px !important;
     }
     .subscribe-form input {
-        width: 200px;
+        width: 300px;
         height: 40px
     }
     .subscribe-form button {
@@ -1411,13 +1426,6 @@ input[type='text'] {
         background-color: #EB8145;
         border-radius: 0px;
         color: white;
-    }
-    .our-circle-image {
-        margin-top: -100px
-    }
-    .footer-logo img {
-        margin-top: 5px;
-        width: 150px;
     }
     .nav-header {
         background-image: url('../img/header-backround.png');
@@ -1439,6 +1447,10 @@ input[type='text'] {
         display: flex;
         align-items: center;
         position: relative;
+    }
+    .footer-logo img {
+        margin-top: -25px !important;
+        width: 150px;
     }
 }
 
@@ -1564,13 +1576,6 @@ input[type='text'] {
         border-radius: 0px;
         color: white;
     }
-    .our-circle-image {
-        margin-top: -100px
-    }
-    .footer-logo img {
-        margin-top: 5px;
-        width: 150px;
-    }
     .nav-header {
         background-image: url('../img/header-backround.png');
         background-repeat: no-repeat;
@@ -1589,6 +1594,10 @@ input[type='text'] {
         display: flex;
         align-items: center;
         position: relative;
+    }
+    .footer-logo img {
+        margin-top: -25px !important;
+        width: 150px;
     }
 }
 
