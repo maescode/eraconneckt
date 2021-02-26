@@ -243,7 +243,7 @@ section {
     min-height: 600px;
     background: url('../img/connect-logo.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right center;
 }
 
 .upload-resume-heading {
@@ -898,7 +898,7 @@ input[type='text'] {
         padding-bottom: 100px !important;
     }
     .card {
-        margin-top: 25px;
+        margin-top: -25px;
     }
     .who-we-are {
         padding-top: 50px;
@@ -1044,7 +1044,7 @@ input[type='text'] {
         padding-bottom: 100px !important;
     }
     .card {
-        margin-top: 25px;
+        margin-top: -25px;
     }
     .who-we-are {
         padding-top: 80px !important;
@@ -1191,7 +1191,7 @@ input[type='text'] {
         padding-bottom: 100px !important;
     }
     .card {
-        margin-top: 25px;
+        margin-top: -25px;
     }
     .who-we-are {
         padding-top: 80px !important;
@@ -1342,16 +1342,15 @@ input[type='text'] {
         padding-bottom: 100px !important;
     }
     .card {
-        margin-top: 25px;
+        margin-top: -25px;
     }
     .who-we-are {
         padding-top: 80px;
         background: url('../img/who-we-are-bg.png');
         background-repeat: no-repeat;
         background-position: center right;
-        background-repeat: repeat-y;
-        background-position-y: 250px;
-        background-size: 100%
+        background-position-y: -250px;
+        background-size: 65%
     }
     .upload-resume h3 {
         font-family: Lato;
@@ -1495,16 +1494,15 @@ input[type='text'] {
         padding-bottom: 100px !important;
     }
     .card {
-        margin-top: 25px;
+        margin-top: 20px;
     }
     .who-we-are {
         padding-top: 80px;
         background: url('../img/who-we-are-bg.png');
         background-repeat: no-repeat;
         background-position: center right;
-        background-repeat: repeat-y;
-        background-position-y: 250px;
-        background-size: 100%
+        background-position-y: -250px;
+        background-size: 65%
     }
     .upload-resume h3 {
         font-family: Lato;
