@@ -95,7 +95,9 @@ header {
 }
 
 .resume-btn {
-    background-color: #EB8145;
+    background: #EB8145;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
 }
 
 .subscribe-btn {
@@ -203,13 +205,14 @@ section {
     background: transparent;
 }
 
-.card-p {
+.card-p p {
     color: #4F4F4F;
     font-family: Lato;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 160%;
+    text-align: left !important;
 }
 
 .card-img img {
@@ -271,8 +274,16 @@ section {
     background-size: 65%
 }
 
+#r-form {
+    width: 100%;
+}
+
 .form-group {
     margin-top: 25px;
+}
+
+.form-group label {
+    margin-bottom: 10px;
 }
 
 .form-group input {
@@ -288,10 +299,9 @@ section {
 }
 
 .form-group input[type='submit'] {
-    background-color: #89B369;
+    background-color: #ACCA96 !important;
     color: white;
     border: 0px;
-    ;
 }
 
 .form-group label {
@@ -418,6 +428,15 @@ input[type='text'] {
 
 .our-circle-image img {
     margin-top: 100px !important;
+}
+
+.modal-dialog {
+    margin-top: 10% !important;
+    max-width: 75vw !important;
+}
+
+.dropzone {
+    width: 100% !important;
 }
 
 ::placeholder {
@@ -567,6 +586,9 @@ input[type='text'] {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: bottom;
+    }
+    #r-form {
+        width: 100%;
     }
 }
 
@@ -1013,6 +1035,9 @@ input[type='text'] {
         justify-content: flex-end;
         align-items: center;
     }
+    #r-form {
+        width: 90% !important;
+    }
 }
 
 @media(min-width:1000px) {
@@ -1122,11 +1147,11 @@ input[type='text'] {
         margin-top: 0px !important;
     }
     .subscribe-form input {
-        width: 200px;
-        height: 40px
+        width: 280px;
+        height: 50px
     }
     .subscribe-form button {
-        height: 40px;
+        height: 50px;
         background-color: #EB8145;
         border-radius: 0px;
         color: white;
@@ -1270,11 +1295,11 @@ input[type='text'] {
         margin-top: 0px !important;
     }
     .subscribe-form input {
-        width: 200px;
-        height: 40px
+        width: 360px;
+        height: 50px;
     }
     .subscribe-form button {
-        height: 40px;
+        height: 50px;
         background-color: #EB8145;
         border-radius: 0px;
         color: white;
@@ -1418,11 +1443,12 @@ input[type='text'] {
         margin-top: 0px !important;
     }
     .subscribe-form input {
-        width: 300px;
-        height: 40px
+        width: 360px;
+        height: 50px
     }
     .subscribe-form button {
-        height: 40px;
+        height: 50px;
+        width: 130px;
         background-color: #EB8145;
         border-radius: 0px;
         color: white;
@@ -1567,11 +1593,12 @@ input[type='text'] {
         margin-top: 0px !important;
     }
     .subscribe-form input {
-        width: 200px;
-        height: 40px
+        width: 450px;
+        height: 50px
     }
     .subscribe-form button {
-        height: 40px;
+        width: 110px;
+        height: 50px;
         background-color: #EB8145;
         border-radius: 0px;
         color: white;
