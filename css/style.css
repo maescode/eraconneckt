@@ -275,6 +275,7 @@ section {
 }
 
 #r-form {
+    overflow-y: hidden;
     width: 100%;
 }
 
@@ -299,7 +300,7 @@ section {
 }
 
 .form-group input[type='submit'] {
-    background-color: #ACCA96 !important;
+    background-color: #ACCA96;
     color: white;
     border: 0px;
 }
@@ -437,6 +438,16 @@ input[type='text'] {
 
 .dropzone {
     width: 100% !important;
+    height: 187px;
+    background-image: url('../img/Group\ 382.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px dashed lightgray;
+    position: relative;
+}
+
+.dropzone:active {
+    background-image: none !important;
 }
 
 ::placeholder {

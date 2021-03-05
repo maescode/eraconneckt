@@ -240,12 +240,12 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="">Attach Document</label>
-                                            <div action="/file-upload" class="dropzone" id="my-awesome-dropzone">
+                                            <div action="/file-upload" class="dropzone" id="myDropzone">
                                             </div>
                                             <div class=" invalid-feedback ">*Please type your email address in the format username@example.com</div>
                                         </div>
                                         <div class="form-group mb-4 ">
-                                            <input type="submit" name="submit " id=" " class="form-control border-0" aria-describedby="helpId " value="Upload ">
+                                            <input type="submit" name="submit " id="submit" class="form-control border-0" aria-describedby="helpId " value="Upload ">
                                         </div>
                                     </form>
                                 </div>
@@ -389,6 +389,22 @@
     </script>
     <!-- Custom scripts -->
     <script type="text/javascript" src="./js/dropzone.js"></script>
+    <script type="text/javascript">
+        Dropzone.options.myDropzone = {
+            dictDefaultMessage: "",
+            acceptedFiles: ".pdf, .doc, .docx",
+            maxFiles: 1,
+            maxfilesexceeded: function(file) {
+                this.removeAllFile();
+                this.addFile(file);
+            },
+        }
+        let submit = document.getElementById('submit');
+        let myDropzone = document.querySelector('#myDropzone');
+        myDropzone.addEventListener('drop', function() {
+            submit.setAttribute('style', 'background-color:#89B369;');
+        })
+    </script>
     <script type="text/javascript " src="./js/script.js "></script>
 </body>
 
