@@ -303,6 +303,7 @@ section {
     background-color: #ACCA96;
     color: white;
     border: 0px;
+    cursor: not-allowed;
 }
 
 .form-group label {

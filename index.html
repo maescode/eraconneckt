@@ -231,21 +231,22 @@
                                     <form class="px-4 py-3 shadow bg-white needs-validation" id="r-form" novalidate>
                                         <div class="form-group">
                                             <label for="">Email Address</label>
-                                            <input type="email" name="" id="" class="form-control shadow-sm" placeholder="example@gmail.com" aria-describedby="helpId" required>
+                                            <input type="email" name="" id="applicant-email" class="form-control shadow-sm" placeholder="example@gmail.com" aria-describedby="helpId" required>
                                             <div class="invalid-feedback">*Please type your email address in the format username@example.com</div>
                                         </div>
                                         <div class="form-group">
                                             <label for="">Protfolio Link <span class="text-muted">(optional) </span></label>
-                                            <input type="text" name="" id="" class="form-control shadow-sm" placeholder="Add a link to your portfolio (github, behance, linkendin etc) " aria-describedby="helpId">
+                                            <input type="url" name="" id="applicant-portfolio" class="form-control shadow-sm" placeholder="Add a link to your portfolio (github, behance, linkendin etc) " aria-describedby="helpId" required>
+                                            <div class="invalid-feedback">*Please type your url in the format http://erconneckt.com</div>
                                         </div>
                                         <div class="form-group">
                                             <label for="">Attach Document</label>
                                             <div action="/file-upload" class="dropzone" id="myDropzone">
                                             </div>
-                                            <div class=" invalid-feedback ">*Please type your email address in the format username@example.com</div>
+                                            <div class="dz-defaultdz-message"></div>
                                         </div>
                                         <div class="form-group mb-4 ">
-                                            <input type="submit" name="submit " id="submit" class="form-control border-0" aria-describedby="helpId " value="Upload ">
+                                            <input type="submit" name="submit " id="submit" class="form-control border-0" value="Upload" disabled>
                                         </div>
                                     </form>
                                 </div>
@@ -258,7 +259,7 @@
         <!--Section Submit your resume ends-->
 
         <!--Section Subscribe starts-->
-        <section class="subscribe-email " id="subscribe ">
+        <section class="subscribe-email " id="subscribe">
             <div class="container ">
                 <div class="row ">
                     <div class="col-md-6 order-md-2 ">
@@ -390,19 +391,35 @@
     <!-- Custom scripts -->
     <script type="text/javascript" src="./js/dropzone.js"></script>
     <script type="text/javascript">
+        let applicant_email = document.querySelector('#applicant-email').value;
+        let applicant_portfolio = document.querySelector('#applicant-portfolio').value
+        let submit = document.getElementById('submit');
+        let myDropzone = document.querySelector('#myDropzone');
         Dropzone.options.myDropzone = {
+            init: function() {
+                this.on("maxfilesexceeded", function(file) {
+                    this.removeAllFiles();
+                    this.addFile(file);
+                });
+                this.on("addedfile", function(file) {
+                    myDropzone.setAttribute('style', 'background-image:none')
+                    submit.setAttribute('style', 'background-color:#89B369;cursor:pointer');
+                    submit.removeAttribute('disabled');
+                });
+            },
             dictDefaultMessage: "",
             acceptedFiles: ".pdf, .doc, .docx",
             maxFiles: 1,
-            maxfilesexceeded: function(file) {
-                this.removeAllFile();
-                this.addFile(file);
-            },
+
+            //previewTemplate: '<div class="dz-preview dz-file-preview"><div class="dz-details"><div class="dz-filename"><span data-dz-name></span></div><div class="dz-size" data-dz-size></div><img data-dz-thumbnail /></div><div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div><div class="dz-success-mark"><span>✔</span></div><div class="dz-error-mark"><span>✘</span></div><div class="dz-error-message"><span data-dz-errormessage></span></div></div>',
         }
-        let submit = document.getElementById('submit');
-        let myDropzone = document.querySelector('#myDropzone');
+
+
         myDropzone.addEventListener('drop', function() {
-            submit.setAttribute('style', 'background-color:#89B369;');
+            myDropzone.setAttribute('style', 'background-image:none')
+            submit.setAttribute('style', 'background-color:#89B369;cursor:pointer');
+            submit.removeAttribute('disabled');
+
         })
     </script>
     <script type="text/javascript " src="./js/script.js "></script>
