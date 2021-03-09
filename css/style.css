@@ -434,7 +434,7 @@ input[type='text'] {
 
 .modal-dialog {
     margin-top: 10% !important;
-    max-width: 75vw !important;
+    max-width: 90vw !important;
 }
 
 .dropzone {
@@ -1340,6 +1340,13 @@ input[type='text'] {
     .footer-logo img {
         margin-top: -25px !important;
         width: 150px;
+    }
+    .modal-dialog {
+        margin-top: 5% !important;
+        max-width: 1000px !important;
+        height: 630px !important;
+        padding: 20px !important;
+        ;
     }
 }
 
